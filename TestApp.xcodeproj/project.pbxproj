@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53ABB2C627F5B7A200BC70DF /* AccuraOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53ABB2C427F5B78C00BC70DF /* AccuraOCR.framework */; };
 		53ACF27327F30DE1005E40A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ACF27227F30DE1005E40A1 /* AppDelegate.swift */; };
 		53ACF27527F30DE1005E40A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ACF27427F30DE1005E40A1 /* SceneDelegate.swift */; };
 		53ACF27727F30DE1005E40A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ACF27627F30DE1005E40A1 /* ViewController.swift */; };
 		53ACF27A27F30DE1005E40A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53ACF27827F30DE1005E40A1 /* Main.storyboard */; };
 		53ACF27C27F30DE6005E40A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53ACF27B27F30DE6005E40A1 /* Assets.xcassets */; };
 		53ACF27F27F30DE6005E40A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53ACF27D27F30DE6005E40A1 /* LaunchScreen.storyboard */; };
-		53ACF28727F30F93005E40A1 /* AccuraOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53ACF28627F30F93005E40A1 /* AccuraOCR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53ABB2C427F5B78C00BC70DF /* AccuraOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccuraOCR.framework; sourceTree = SOURCE_ROOT; };
 		53ACF26F27F30DE1005E40A1 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53ACF27227F30DE1005E40A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53ACF27427F30DE1005E40A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		53ACF27B27F30DE6005E40A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53ACF27E27F30DE6005E40A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53ACF28027F30DE6005E40A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53ACF28627F30F93005E40A1 /* AccuraOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccuraOCR.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53ACF28727F30F93005E40A1 /* AccuraOCR.framework in Frameworks */,
+				53ABB2C627F5B7A200BC70DF /* AccuraOCR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 				53ACF27227F30DE1005E40A1 /* AppDelegate.swift */,
 				53ACF27427F30DE1005E40A1 /* SceneDelegate.swift */,
 				53ACF27627F30DE1005E40A1 /* ViewController.swift */,
-				53ACF28627F30F93005E40A1 /* AccuraOCR.framework */,
+				53ABB2C427F5B78C00BC70DF /* AccuraOCR.framework */,
 				53ACF27827F30DE1005E40A1 /* Main.storyboard */,
 				53ACF27B27F30DE6005E40A1 /* Assets.xcassets */,
 				53ACF27D27F30DE6005E40A1 /* LaunchScreen.storyboard */,
@@ -295,6 +295,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestApp",
+					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestApp/Info.plist;
@@ -327,6 +328,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestApp",
+					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestApp/Info.plist;
